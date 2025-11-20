@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Dearest Love</title>
+    <meta name="description" content="A heartwarming gallery of our beautiful memories together">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Curtain Reveal Effect -->
+    <div class="curtain-overlay">
+        <div class="curtain-left"></div>
+        <div class="curtain-right"></div>
+    </div>
+
+    <!-- Celebration Overlay (Hidden by default) -->
+    <div id="celebration-overlay" class="celebration-overlay">
+        <div class="celebration-content">
+            <h1 class="celebration-title">I knew it! 💕</h1>
+            <p class="celebration-message">I love you too, my precious!</p>
+            <div class="hearts-container" id="hearts-container"></div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <header class="header">
+        <h1 class="main-title">For My Dearest</h1>
+        <p class="subtitle">Our Beautiful Memories Together</p>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Image Section -->
+        <section class="hero-section" id="hero">
+            <!-- Main Photo -->
+            <div class="main-photo-container">
+                <div class="film-frame">
+                    <img src="5.jpg" alt="Our Beautiful Memory" class="hero-image">
+                </div>
+            </div>
+
+            <!-- Floating Gallery -->
+            <div class="floating-gallery">
+                <div class="gallery-item">
+                    <img src="1.jpg" alt="Memory 1">
+                </div>
+                <div class="gallery-item gallery-wide">
+                    <img src="2.jpeg" alt="Memory 2">
+                </div>
+                <div class="gallery-item gallery-tall">
+                    <img src="3.jpg" alt="Memory 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="4.jpg" alt="Memory 4">
+                </div>
+                <div class="gallery-item gallery-tall">
+                    <img src="6.jpg" alt="Memory 6">
+                </div>
+                <div class="gallery-item">
+                    <img src="7.jpg" alt="Memory 7">
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Letter Section -->
+        <section class="letter-section" id="letter">
+            <div class="letter-container">
+                <div class="letter-paper">
+                    <h2 class="letter-title">My Dearest Love,</h2>
+                    <p class="letter-text">
+                        Every moment with you feels like a beautiful dream that I never want to end.
+                        Your smile brightens my darkest days, and your laughter is the sweetest melody to my ears.
+                    </p>
+                    <p class="letter-text">
+                        I cherish every memory we've created together, and I look forward to making countless more.
+                        You are my sunshine, my inspiration, and my everything.
+                    </p>
+                    <p class="letter-text">
+                        Thank you for being you, for loving me, and for making my life so incredibly beautiful.
+                    </p>
+                    <p class="letter-signature">Forever yours,<br>With all my love 💕</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Question Section -->
+        <section class="question-section" id="question">
+            <div class="question-container">
+                <h2 class="question-title">DO YOU LOVE ME?</h2>
+                <div class="buttons-container" id="buttons-container">
+                    <button id="yes-button" class="btn btn-yes">
+                        <span>YES</span>
+                        <span class="mongolian">Тийм</span>
+                    </button>
+                    <button id="no-button" class="btn btn-no">
+                        <span>NO</span>
+                        <span class="mongolian">Үгүй</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox for full-screen image view -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-image" class="lightbox-image" src="" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
